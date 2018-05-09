@@ -1,0 +1,105 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display : flex;
+    height : 100%;
+    align-items: flex-start;
+    justify-content: center;
+    background: url('train-station.jpg');
+    background-size: cover;
+    padding: 2rem;
+  }
+  
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .jsclock {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background: whitesmoke;
+    box-shadow:
+    3px 2px 3px 1px black inset, 
+    0 0 0 1rem silver,
+    1px 0px 0px 1.2rem gray;
+  }
+  
+  .secHandContainer {
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+  }
+  
+  .minHandContainer {
+    position: relative;
+    width: 17rem;
+    height: 17rem;
+  }
+  
+  .hourHandContainer {
+    position: relative;
+    width: 12rem;
+    height: 12rem;
+  }
+  
+  .hand {
+    position: absolute;
+    transform-origin: 90%;
+    width: 55%;
+    top: 50%;
+    left: 0%;
+    box-shadow: 2px 1px 2px 1px darkslategray;
+  }
+  
+  #secHand {
+    background: red;
+    height: 0.2rem;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+  }
+  
+  #hourHand {
+    height: 0.7rem;
+    top: 48.3%;
+    background: black;
+  }
+  
+  #minHand {
+    background: black;
+    height: 0.5rem;
+    top: 49.3%;
+    z-index: 1;
+  }
+  
+  #circle {
+    background: red;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    box-shadow: 0px 1px 2px 1px darkslategray;
+    z-index: -10;
+    position: relative;
+  }
+  
+  .deg {
+    position:absolute;
+    width: 1rem;
+    height: 0.2rem;
+    background: black;
+  }
+  
+  .min5 {
+    width: 2rem;
+    height: 0.6rem;
+  }
+  
+  
