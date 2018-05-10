@@ -101,5 +101,46 @@ html, body {
     width: 2rem;
     height: 0.6rem;
   }
+
+  #ludem {
+    position: absolute;
+    bottom: 8%;
+    margin: 0;
+    margin-left: 0.3rem;
+    font-size: 0.6rem;
+    font-family: "Cabin", sans-serif;
+    letter-spacing: 0.08rem;
+    font-weight: bolder;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  a, a:hover, a:visited {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: #242424;
+
+  }
+
+#ludem:hover span, #ludem:hover .border {
+    color: red;
+    border-color: red;
+  }
+
+  .border {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top: 4px solid black;
+    height: 1rem;
+    width: 2rem;
+    margin-bottom: -0.5rem;
+  }
+
+  .time {
+    font-style: italic;
+    font-weight: normal;
+  }
   
   
